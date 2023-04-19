@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(to right, #5597a9, #2c7fc3);
+    display: flex;
+    min-height: 100;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    flex-direction: column;
+}
+#main {
+    margin: 1rem;
+}
+#avatar {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+#card {
+    background: linear-gradient(to right, #fbfcfd, #fafbfb);
+    background-color: red;
+    display: flex;
+    padding: 50px;
+    align-content: space-between;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 15px;
+    height: 150px;
+}
+#avbox {
+    padding: 15px;
+    padding-right: 85px;
+}
+#txt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
